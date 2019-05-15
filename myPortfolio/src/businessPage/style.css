@@ -83,7 +83,7 @@ a {
     justify-items: center;
 }
 
-.footer > a:hover {
+.footer a:hover {
     color: black;
 }
 
