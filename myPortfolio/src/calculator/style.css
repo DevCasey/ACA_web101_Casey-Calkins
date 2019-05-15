@@ -1,0 +1,35 @@
+body {
+    background: slategray;
+}
+
+.container {
+    background: white;
+    height: 600px;
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.buttons {
+    background: black;
+    color: white;
+    flex: 1;
+    font-size: 30px;
+    padding: 20px;
+    margin: 5px;
+}
+
+.answer {
+    order: -1;
+    flex: 100%;
+}
+
+.zero_button {
+    color: white;
+    background: black;
+    flex: 23%;
+    text-align: center;
+    justify-items: center;
+}
