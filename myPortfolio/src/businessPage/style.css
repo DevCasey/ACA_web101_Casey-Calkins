@@ -32,10 +32,11 @@ body {
     height: 80vh;
     width: auto;
     border: 1px solid black;
+    
 }
 
 .road-grid {
-    background: url('road.jpg');
+    background-image: url('road.jpg');
     background-size: cover;
 }
 
@@ -49,3 +50,14 @@ body {
     background-size: cover;
 }
 
+
+.road-grid, .mountain-grid, .hybrid-grid {
+    background-color: rgba(255,255,255, 0.4);
+    background-blend-mode: lighten;
+}
+
+
+
+.content-box > div:hover {
+    background-color: rgba(0,0,0,1);
+} 
