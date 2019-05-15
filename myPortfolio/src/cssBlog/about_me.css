@@ -1,0 +1,49 @@
+body {
+  background-image: url('br_image.jpg');
+  background-attachment: fixed;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+    
+ }
+ 
+.navbar {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 100%;
+  top: 0;
+  position: fixed;
+}
+ 
+ nav .navbar > a {
+  color: #5a5858;
+  text-decoration: none;
+  text-align: right;
+  padding-right: 20px;
+  padding-top: 10px;
+ }
+
+ 
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr;
+  text-align: center;
+  align-items: center;
+  justify-items: center;
+  grid-gap: 1em;
+  padding-top: 100px;
+}
+
+.content {
+  width: 25%;
+  background: rgba(214, 206, 206, 0.5);
+  
+}
+
+.links:hover {
+  background: #5a5858;
+  color: white;
+  border: 1px solid #5a5858;
+  border-radius: 15%;
+
+}
+ 
