@@ -1,5 +1,7 @@
+/* Main HTML settings */
 body {
     background: grey;
+    padding: 0;
     margin: 0;
 }
 
@@ -17,12 +19,12 @@ a {
     background-image: linear-gradient(#00143e, #00388c);
     vertical-align: baseline;
     color: white;
-
 }
 
 /* Main wrapper settings */
 .main-wrapper {
-    height: 800px;
+    /* height: 800px; */
+    /* height: 100vh; */
     width: 80vw;
     margin-left: auto;
     margin-right: auto;
@@ -36,7 +38,7 @@ a {
     grid-template-columns: repeat(3, 1fr);
     grid-gap: .3%;
     height: 80vh;
-    width: auto;
+    /* width: auto; */
 }
 
 .content-box  a {
@@ -69,11 +71,14 @@ a {
     background-size: cover;
 }
 
+/* Footer settings */
+.footer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+}
+
 /* Pseudo-classes */
-.content-box > div:hover {
-    /* background-color: rgba(255,255,255, 0.4);
-    background-blend-mode: lighten; */
-} 
 
 .content-box div:hover {
     background-color: rgba(255,255,255, 0.4);
@@ -81,5 +86,5 @@ a {
 }
 
 .content-box div:hover a {
-    color: black;
+    color: #191919;
 }
