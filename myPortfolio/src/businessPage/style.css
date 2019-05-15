@@ -51,13 +51,12 @@ body {
 }
 
 
-.road-grid, .mountain-grid, .hybrid-grid {
-    background-color: rgba(255,255,255, 0.4);
-    background-blend-mode: lighten;
-}
-
-
+/* .road-grid, .mountain-grid, .hybrid-grid {
+    
+} */
 
 .content-box > div:hover {
-    background-color: rgba(0,0,0,1);
+    
+    background-color: rgba(255,255,255, 0.4);
+    background-blend-mode: lighten;
 } 
