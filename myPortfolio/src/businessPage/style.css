@@ -1,6 +1,8 @@
 /* Main HTML settings */
 body {
-    background: grey;
+    background: url('main-back.jpg');
+    background-size: cover;
+    background-attachment: fixed;
     padding: 0;
     margin: 0;
 }
@@ -23,12 +25,11 @@ a {
 
 /* Main wrapper settings */
 .main-wrapper {
-    /* height: 800px; */
-    /* height: 100vh; */
     width: 80vw;
     margin-left: auto;
     margin-right: auto;
     padding: 50px;
+    padding-bottom: 15px;
     background: white;
 }
 
@@ -76,7 +77,89 @@ a {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(5, 1fr);
+    margin-top: 20px;
+    border-top: 5px solid #00143e;
+    padding-top: 5px;
+    justify-items: center;
 }
+
+.footer > a:hover {
+    color: black;
+}
+
+.contact-text, .service-text, .shop-text, .connect-text {
+    font-weight: bold;
+}
+
+/* Contact grid settings */
+.contact-text {
+    grid-column: 1/2;
+}
+
+.number {
+    grid-row: 2/3;
+}
+
+.email {
+    grid-row: 3/4;
+}
+
+.hours {
+    grid-row: 4/5;
+}
+
+/* Service grid settings */
+.service-text, .maintenance, .tune-up, .repair {
+    grid-column: 2/3;
+}
+
+/* Shop grid settings */
+.shop-text, .frames, .tires, .accessories, .apparel {
+    grid-column: 3/4;
+}
+
+.shop-text {
+    grid-row: 1/2;
+}
+
+.frames {
+    grid-row: 2/3;
+}
+
+.tires {
+    grid-row: 3/4;
+}
+
+.accessories {
+    grid-row: 4/5;
+}
+
+.apparel {
+    grid-row: 5/6;
+}
+
+/* Connect grid settings */
+.connect-text, .facebook, .instagram, .twitter {
+    grid-column: 4/5;
+}
+
+.connect-text {
+    grid-row: 1/2;
+}
+
+.facebook {
+    grid-row: 2/3;
+}
+
+.instagram {
+    grid-row: 3/4;
+}
+
+.twitter {
+    grid-row: 4/5;
+}
+
+
 
 /* Pseudo-classes */
 
