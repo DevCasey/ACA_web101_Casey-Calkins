@@ -28,7 +28,24 @@ body {
 .content-box {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    grid-gap: .3%;
     height: 80vh;
     width: auto;
     border: 1px solid black;
 }
+
+.road-grid {
+    background: url('road.jpg');
+    background-size: cover;
+}
+
+.mountain-grid {
+    background: url('mountain.jpg');
+    background-size: cover;
+}
+
+.hybrid-grid {
+    background: url('hybrid.jpg');
+    background-size: cover;
+}
+
