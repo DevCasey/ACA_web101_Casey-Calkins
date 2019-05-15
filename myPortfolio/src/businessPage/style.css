@@ -32,6 +32,7 @@ body {
     height: 80vh;
     width: auto;
     border: 1px solid black;
+    
 }
 
 .road-grid {
@@ -49,3 +50,14 @@ body {
     background-size: cover;
 }
 
+
+.road-grid, .mountain-grid, .hybrid-grid {
+    opacity: .7;
+    
+}
+
+
+
+.content-box > div:hover {
+    opacity: 1;
+}
