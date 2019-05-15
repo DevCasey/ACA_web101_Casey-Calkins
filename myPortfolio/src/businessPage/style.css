@@ -58,6 +58,7 @@ a {
 .road-grid {
     background-image: url('road.jpg');
     background-size: cover;
+    max-width: 100%;
 }
 
 /* Mountin grid settings */
@@ -171,4 +172,20 @@ a {
 
 .content-box div:hover a {
     color: #191919;
+}
+
+@media screen and (max-width: 900px) {
+    .content-box {
+        display: none;
+    }
+
+    .content-box {
+        display: flex;
+        flex-flow: column nowrap;
+    }
+
+    .content-box > div {
+        flex: 1;
+    }
+
 }
