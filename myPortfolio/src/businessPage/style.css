@@ -19,9 +19,24 @@ body {
 .main-wrapper {
     height: 800px;
     width: 80vw;
-    border: 1px solid black;
     margin-left: auto;
     margin-right: auto;
     padding: 50px;
     background: white;
+}
+
+.content-box {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    height: 80vh;
+    width: auto;
+    border: 1px solid black;
+}
+
+.content-grid {
+    /* display: grid;
+    height: 100%;
+    grid-template-columns: repeat(3, 1fr);
+    border: 1px solid black;
+     */
 }
