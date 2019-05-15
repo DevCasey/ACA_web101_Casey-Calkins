@@ -88,6 +88,7 @@ a {
 }
 
 .contact-text, .service-text, .shop-text, .connect-text {
+    font-size: 1.5em;
     font-weight: bold;
 }
 
