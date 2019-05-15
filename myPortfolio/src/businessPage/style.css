@@ -20,6 +20,7 @@ a {
 
 }
 
+/* Main wrapper settings */
 .main-wrapper {
     height: 800px;
     width: 80vw;
@@ -52,11 +53,8 @@ a {
 
 /* Road grid settings */
 .road-grid {
-    
     background-image: url('road.jpg');
     background-size: cover;
-    
-    
 }
 
 /* Mountin grid settings */
@@ -76,4 +74,5 @@ a {
     background-color: rgba(255,255,255, 0.4);
     background-blend-mode: lighten;
 } 
+
 
