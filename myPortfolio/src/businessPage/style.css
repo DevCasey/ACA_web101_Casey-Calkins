@@ -32,11 +32,3 @@ body {
     width: auto;
     border: 1px solid black;
 }
-
-.content-grid {
-    /* display: grid;
-    height: 100%;
-    grid-template-columns: repeat(3, 1fr);
-    border: 1px solid black;
-     */
-}
