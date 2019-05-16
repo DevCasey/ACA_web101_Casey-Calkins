@@ -219,7 +219,7 @@ a {
     }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 414px) {
     .main-wrapper {
         height: 100%;
         width: 100%;
