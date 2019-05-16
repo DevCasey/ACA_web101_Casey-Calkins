@@ -189,3 +189,21 @@ a {
     }
 
 }
+
+@media screen and (max-width: 555px) {
+    .footer {
+        display: none;
+    }
+
+    .footer {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(5, 1fr);
+        justify-items: center;
+    }
+
+    .contact-text, .service-text, .shop-text, .connect-text {
+        font-size: 1em;
+        font-weight: bold;
+    }
+}
