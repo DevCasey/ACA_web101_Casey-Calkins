@@ -1,6 +1,6 @@
 /* Main HTML settings */
 body {
-    background: url('/BusinessImages/main-back.jpg');
+    background: url('./BusinessImages/main-back.jpg');
     background-size: cover;
     background-attachment: fixed;
     padding: 0;
@@ -56,20 +56,20 @@ a {
 
 /* Road grid settings */
 .road-grid {
-    background-image: url('/BusinessImages/road.jpg');
+    background-image: url('./BusinessImages/road.jpg');
     background-size: cover;
     max-width: 100%;
 }
 
 /* Mountin grid settings */
 .mountain-grid {
-    background: url('/BusinessImages/mountain.jpg');
+    background: url('./BusinessImages/mountain.jpg');
     background-size: cover;
 }
 
 /* Hybrid grid settings */
 .hybrid-grid {
-    background: url('/BusinessImages/hybrid.jpg');
+    background: url('./BusinessImages/hybrid.jpg');
     background-size: cover;
 }
 
