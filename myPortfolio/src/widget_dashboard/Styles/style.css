@@ -1,5 +1,5 @@
 body {
-    background: url('./Images/background_img.jpg');
+    background: url('../Images/background_img.jpg');
     background-size: cover;
 }
 
@@ -56,7 +56,7 @@ body {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(5, 1fr);
-    background: url('./Images/clock.jpg');
+    background: url('../Images/clock.jpg');
     background-size: cover;
 }
 
@@ -67,7 +67,7 @@ body {
 }
 
 .calculator-container {
-    background: url('./Images/board.jpg');
+    background: url('../Images/board.jpg');
     background-size: cover;
     border-top: 1px solid white;
     display: grid;
@@ -236,7 +236,7 @@ body {
 
 /* -- To do list start -- */
 .to-do {
-    background: url('./Images/checklist2.jpg');
+    background: url('../Images/checklist2.jpg');
     background-size: cover;
     height: auto;
     display: grid;

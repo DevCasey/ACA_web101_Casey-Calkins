@@ -47,7 +47,7 @@ body {
 }
 
 .nav-container {
-    background: url('./Images/nasa-image.jpg');
+    background: url('../Images/nasa-image.jpg');
     background-size: cover;
     display: flex;
     flex-direction: column;
