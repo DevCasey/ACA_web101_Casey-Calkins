@@ -39,11 +39,16 @@ body {
   
 }
 
+
 .links:hover {
   background: #5a5858;
   color: white;
   border: 1px solid #5a5858;
   border-radius: 15%;
 
+}
+
+.content > h2 {
+  margin-top: 0;
 }
  
