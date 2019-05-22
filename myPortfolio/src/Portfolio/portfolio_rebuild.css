@@ -1,39 +1,25 @@
 @media screen and (max-width: 414px) {
+
     body {
         margin: 0;
-    }
-    .container {
-        height: 20vh;
-        width: 100vw;
         background: #424242;
     }
+    .container {
+        height: 10vh;
+        width: 100vw;
+        background: #232323;
+        position: fixed;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 
-    #menu-items a {
+    .menu-items a {
         text-decoration: none;
         color: #31bf7d;
         cursor: pointer;
-    }
-
-
-    #menu {
-        display: inline-block;
-    }
-
-    
-    .bar1, .bar2, .bar3 {
-        position: relative;
-        top: 10px;
-        left: 10px;
-        width: 35px;
-        height: 5px;
-        background-color: #d4d4d4;
-        margin: 6px 0;
-        
-
-    }
-
-    ul {
-        list-style-type: none;
+        font-size: 20px;
+        padding-left: 10px;
     }
 
 }
