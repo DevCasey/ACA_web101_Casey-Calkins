@@ -12,7 +12,7 @@ ul {
 
 a {
     text-decoration: none;
-    color: #10dfef;
+    
 }
 
 
@@ -116,11 +116,13 @@ section {
 }
 
 .about-me-title > a {
-    transition: all .5s ease;
+    transition: all .5s;
+    color: #10dfef;
   }
   
 .about-me-title > a:hover {
-    color: #EF2010;
+    /* color: #EF2010; */
+    transform: scale(1.1);
     
   }
 
