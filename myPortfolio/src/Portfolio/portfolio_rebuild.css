@@ -100,6 +100,14 @@ section {
     padding-right: 20px;
 }
 
+.line-space {
+    width: 70%;
+    border: 0;
+    height: 1px;
+    background: white;
+    /* background-image: linear-gradient(to right, rgba(0,0,0,0), #10dfef, #EF2010, #10dfef, rgba(0,0,0,0));  */
+    background-image: linear-gradient(to right, rgba(0,0,0,0), #EF2010, #10dfef, #EF2010, rgba(0,0,0,0));
+}
 
 
 
@@ -107,6 +115,16 @@ section {
 .header ul {
     display: block;
 }
+
+.about-me-title > a {
+    transition: all .5s ease-in-out;
+    text-align: center;
+  }
+  
+.about-me-title > a:hover {
+    transform: scale(1.1);
+    color: #EF2010;
+  }
 
 
 
