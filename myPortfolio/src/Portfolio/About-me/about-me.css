@@ -53,7 +53,7 @@ a {
     border: 0;
     height: 1px;
     background: white;
-    background-image: linear-gradient(to right, rgba(0,0,0,0), #EF2010, #10dfef, #EF2010, rgba(0,0,0,0));
+    background-image: linear-gradient(to right, rgba(0,0,0,0), grey, #10dfef, grey, rgba(0,0,0,0));
 }
 
 
