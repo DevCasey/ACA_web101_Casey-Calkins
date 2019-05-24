@@ -63,6 +63,7 @@ section {
     font-size: 2em;
     color: #444444;
     margin-bottom: 100px;
+    text-shadow: 1px 1px 1px #78877E;
 }
 
 .current-job-section {
@@ -108,6 +109,15 @@ section {
     background-image: linear-gradient(to right, rgba(0,0,0,0), grey, #10dfef, grey, rgba(0,0,0,0));
 }
 
+#transform-this {
+    transition: all .5s ease-in-out;
+    color: #10dfef;
+}
+
+#transition-this:hover {
+    color: #EF2010;
+    transform: scale(1.1);
+}
 
 
 
@@ -115,93 +125,10 @@ section {
     display: block;
 }
 
-.about-me-title > a {
-    transition: all .5s;
-    color: #10dfef;
-  }
-  
-.about-me-title > a:hover {
-    /* color: #EF2010; */
-    transform: scale(1.1);
-    
-  }
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media screen and (max-width: 414px) {
-
-    body {
-        background: #424242;
-        margin: 0;
-    }
-    .container {
-        height: 10vh;
-        width: 100vw;
-        background: #232323;
-        /* position: fixed; */
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .menu-items a {
-        text-decoration: none;
-        color: #31bf7d;
-        cursor: pointer;
-        font-size: 20px;
-        padding-left: 10px;
-    }
-
-    .about-wrapper {
-        border: 1px solid black;
-        height: 80vh;
-        width: 100vw;
-    }
-
-    .intro {
-        color: #31bf7d;
-        text-align: center;
-    }
-
-    /* .about-me {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        height: 80vh;
-        width: 90vw;
-        border: 1px solid black;
-        border-radius: 10px;
-        margin-right: 10px;
-        margin-left: 10px;
-    } */
-
-}
 
 
