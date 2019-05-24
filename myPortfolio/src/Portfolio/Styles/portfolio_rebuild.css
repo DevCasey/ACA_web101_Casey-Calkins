@@ -109,12 +109,14 @@ section {
     background-image: linear-gradient(to right, rgba(0,0,0,0), grey, #10dfef, grey, rgba(0,0,0,0));
 }
 
+
+
 #transform-this {
     transition: all .5s ease-in-out;
     color: #10dfef;
 }
 
-#transition-this:hover {
+#transform-this:hover {
     color: #EF2010;
     transform: scale(1.1);
 }
