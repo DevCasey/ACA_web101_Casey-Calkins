@@ -1,21 +1,33 @@
 body {
     margin: 0;
-    background: #424242;
 }
 
 ul {
     list-style-type: none;
 }
 
+/* .nav-bar {
+    margin: 0;
+    width: 100vw;
+} */
+
 .header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
+    display: flex;
+    justify-content: flex-end;
     margin: auto;
     padding: 10px 15px;
-    border-bottom: 1px solid black;
     font-size: 20px;
+}
+
+.container {
+    width: 100vw;
+    height: auto;
+}
+
+.cont-title {
+    position: absolute;
+    top: 175px;
+    left: 150px;
 }
 
 .header ul {
@@ -23,10 +35,10 @@ ul {
 }
 
 
-
 .header a {
     text-decoration: none;
-    color: #cacaca;
+    color: #232323;
+    padding-right: 20px;
 }
 
 
