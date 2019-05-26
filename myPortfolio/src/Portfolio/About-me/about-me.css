@@ -56,6 +56,11 @@ a {
     background-image: linear-gradient(to right, rgba(0,0,0,0), grey, #10dfef, grey, rgba(0,0,0,0));
 }
 
+.main-container {
+    display: flex;
+    flex-flow: row wrap;
+}
+
 .about-me-container {
     display: flex;
     margin-left: auto;
@@ -65,7 +70,8 @@ a {
     margin-top: 50px;
     flex-flow: row wrap;
     align-items: center;
-    background: grey;
+    background:rgba(56,255,255,0.1);
+    border-radius: 10px;
 }
 
 .contact-me-container {
