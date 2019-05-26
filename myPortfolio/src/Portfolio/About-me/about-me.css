@@ -6,15 +6,6 @@ body {
 
 }
 
-ul {
-    list-style-type: none;
-    
-}
-
-a {
-    text-decoration: none;
-    color: #10dfef;
-}
 
 /* -- Nav bar settings -- */
 #nav-tags:hover {
@@ -23,6 +14,7 @@ a {
 
 .header ul {
     display: block;
+    list-style-type: none;
 }
 
 .nav-bar {
@@ -93,11 +85,52 @@ a {
     width: 600px;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: repeat(5, 1fr);
-    background: grey;
+    /* background: rgba(56,255,255,0.1); */
+    font-family: "Work Sans", Helvetica, Arial, sans-serif;
+    color: #444444;
+    justify-items: center;
+    align-items: center;
 }
 
+.language {
+    font-size: 1.5em;
+    align-self: center;
+}
 
+.vcontrol {
+    font-size: 1.5em;
+    align-self: center;
+}
 
+.ht {
+    grid-row: 2/3;
+}
+
+.css {
+    grid-row: 3/4;
+}
+
+.javascript {
+    grid-row: 4/5;
+}
+
+.csharp {
+    grid-row: 5/6;
+}
+
+.vcontrol, .git, .github {
+    grid-column: 2/3;
+}
+
+.git {
+    grid-row: 2/3;
+    padding-right: 127px;
+}
+
+.github {
+    grid-row: 3/4;
+    padding-right: 100px;
+}
 
 
 .contact-me-container {
