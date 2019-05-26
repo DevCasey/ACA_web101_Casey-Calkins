@@ -62,17 +62,40 @@ a {
 }
 
 .about-me-container {
-    display: flex;
     margin-left: auto;
     margin-right: auto;
     width: 60vw;
     height: 75vh;
     margin-top: 50px;
-    flex-flow: row wrap;
-    align-items: center;
     background:rgba(56,255,255,0.1);
     border-radius: 10px;
 }
+
+.about-me-title {
+    font-size: 3em;
+}
+
+.about-me-text {
+    display: flex;
+    justify-content: center;
+}
+
+.about-me-content {
+    font-size: 1.5em;
+    width: 500px;
+    line-height: 3;
+    padding-left: 15px;
+}
+
+.my-work-container {
+    display: grid;
+    width: 600px;
+    
+}
+
+
+
+
 
 .contact-me-container {
     margin-top: 2em;
