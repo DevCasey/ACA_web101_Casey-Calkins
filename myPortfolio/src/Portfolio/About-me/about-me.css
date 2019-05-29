@@ -25,6 +25,16 @@ body {
     
 }
 
+#nav-tags {
+    display: inline-block;
+    transition: all .2s ease-in-out;
+}
+
+#nav-tags:hover {
+    color: #EF2010;
+    transform: scale(1.3);
+}
+
 .header {
     display: flex;
     justify-content: flex-end;
