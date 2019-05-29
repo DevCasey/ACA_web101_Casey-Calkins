@@ -111,20 +111,21 @@ section {
 
 
 
-#transform-this {
-    transition: all .5s ease-in-out;
+.transform-this {
+    display: block;
     color: #10dfef;
 }
 
-#transform-this:hover {
+.transform-this:hover {
     color: #EF2010;
-    transform: scale(1.1);
+    animation: pulse 1s;
 }
+
 
 
 
 .header ul {
-    display: block;
+    display: inline-block;
 }
 
 
