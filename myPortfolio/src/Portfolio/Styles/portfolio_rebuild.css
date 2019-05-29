@@ -112,13 +112,15 @@ section {
 
 
 .transform-this {
-    display: block;
     color: #10dfef;
+    width: 1.2em;
+    display: inline-block;
+    transition: all .2s ease-in-out;
 }
 
 .transform-this:hover {
     color: #EF2010;
-    animation: pulse 1s;
+    transform: scale(1.2);
 }
 
 
