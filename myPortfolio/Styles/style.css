@@ -6,6 +6,10 @@ body {
     background-size: 1920px 1080px;
   }
 
+  .button-content {
+    display: inline-block;
+  }
+
   html {
     height: 100%;
   }
@@ -42,6 +46,8 @@ body {
     text-align: center;
     border: 2px solid white;
   }
+
+
   
   .has-border {
     border-radius: 25px;
