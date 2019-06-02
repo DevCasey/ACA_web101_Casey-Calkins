@@ -1,0 +1,76 @@
+body {
+    background: black;
+  }
+  
+  .square-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .square-container  div {
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+  }
+  
+  div {
+    transition: ease-in-out 1s;
+  }
+  
+  div:hover div:nth-child(odd) {
+    transform: scale(2) translate(150px) rotate(180deg);
+    transition-duration: 3s;
+  }
+  
+  div:hover div:nth-child(even) {
+    transform: scale(.5) translate(-300px) rotate(180deg);
+  }
+  
+  .square1 {
+    background: red;
+  }
+  
+  .square2 {
+    background: orange;
+  }
+  
+  .square3 {
+    background: yellow;
+  }
+  
+  .square4 {
+    background: green;
+  }
+  
+  .square5 {
+    background: blue;
+  }
+  
+  .square6 {
+    background: indigo;
+  }
+  
+  .square7 {
+    background: violet;
+  }
+  
+  .square8 {
+    background: gold;
+  }
+  
+  .square9 {
+    background: cyan;
+  }
+  
+  .square10 {
+    background: darkcyan;
+  }
+  
+  .square11 {
+    background: darkred;
+  }
+  
+  .square12 {
+    background: darkgreen;
+  }
