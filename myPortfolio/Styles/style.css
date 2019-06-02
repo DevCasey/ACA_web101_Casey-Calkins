@@ -6,6 +6,11 @@ body {
     background-size: 1920px 1080px;
   }
 
+  a {
+    text-decoration: none;
+    color: white;
+  }
+
   .button-content {
     display: inline-block;
   }
@@ -46,6 +51,7 @@ body {
     text-align: center;
     border: 2px solid white;
   }
+
 
 
   
