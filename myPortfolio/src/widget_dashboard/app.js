@@ -5,13 +5,10 @@ function gettingDate(){
     let myTime = document.getElementById('getting-time');
 
     if (day.textContent == '') {
-        console.log('true');
         let d = new Date();
         let n = d.getDate();
         day.textContent = n;
-    } else {
-        console.log('false');
-    }
+    } 
 
     if (month.textContent == '') {
         let d = new Date();
@@ -23,9 +20,13 @@ function gettingDate(){
         let d = new Date();
         let newTime = d.getHours() + ' : ' + d.getMinutes();
         myTime.textContent = newTime;
-        setInterval(10);
+        setTimeout(gettingDate, 5);
+        
     }
+
+    
 }
 
 gettingDate();
+setInterval(gettingDate, 5);
 
